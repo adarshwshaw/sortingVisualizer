@@ -1,0 +1,45 @@
+body {
+    background: #151515;
+    color: #ffffff
+}
+
+#layout {
+    display: flex;
+    flex-direction: row;
+    height: 50vh;
+    align-item: stretch
+}
+
+#layout>div {
+    margin: 0.25em
+}
+
+#canvas {
+    display: flex;
+    flex-direction: row;
+    background: #2c2c2c;
+    height: 100%;
+    flex-grow: 7
+}
+
+#infos {
+    height: 100%;
+    flex-grow: 3;
+    background: #3c3c3c
+}
+
+.bar {
+    display: inline-block;
+    align-self: flex-end;
+    background: #ff0000;
+    margin-right: 2px;
+    margin-bottom: 0.2em;
+}
+
+.bar.mark {
+    background: #ffff00;
+}
+
+.bar.green {
+    background: #00ff00;
+}
